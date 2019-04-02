@@ -18,7 +18,7 @@ public class ListaTarefasApplication implements CommandLineRunner {
 	}
 
 	@Autowired
-	private TarefaRepository tarefaRepository;
+	private TarefaRepository tarefaRepository;//repository popula o banco de dados
 
 	@Override
 	public void run(String... args) throws Exception {
